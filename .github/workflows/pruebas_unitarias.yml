@@ -31,3 +31,6 @@ jobs:
     - name: Buscar archivos
       run: |
         ls
+        cd data
+        cd proccesed
+        pwd
