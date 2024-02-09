@@ -23,11 +23,11 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.7"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Buscar archivos
       run: |
-        ls
-        cd data
-        cd raw
-        ls
-        pwd
-        realpath weatherAUS_2024-02-09.csv
+        python test_rain_aus_fun.py
