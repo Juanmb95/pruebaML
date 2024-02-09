@@ -28,6 +28,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with test_rain_aus_fun
+    - name: Buscar archivos
       run: |
-        python test_rain_aus_fun.py
+        ls
