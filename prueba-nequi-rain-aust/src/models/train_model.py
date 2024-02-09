@@ -7,6 +7,7 @@ from sklearn.metrics import confusion_matrix
 import pickle
 #from features.pipeline_preprocesado import *
 from src.data_get.make_dataset import *
+from src.config.get_r import RutaT
 
 class ModelTrain:
     @staticmethod
@@ -32,8 +33,8 @@ class ModelTrain:
             'Metric': ['Precision model_test', 'Recall_test', 'Precision model_train', 'Recall_train', 'Auc_test', 'Auc_train'],
             'Value': [precision_test, recall_test, precision_train, recall_train, auc_test, auc_train]
         })
-        df.to_excel(params.get("ruta_reports") + "\\" + "metrics_model_{}.xlsx".format(datetime.now().strftime('%Y-%m-%d')))
+        df.to_excel(RutaT.get_folder() + params.get("ruta_reports") + "\\" + "metrics_model_{}.xlsx".format(datetime.now().strftime('%Y-%m-%d')))
         cm = confusion_matrix(y_test, y_pred_test)
         print(cm)
-        with open(params.get("ruta_models") + '\\sk_rain_model_{}.pkl'.format(datetime.now().strftime('%Y-%m-%d')), 'wb') as f:
+        with open(RutaT.get_folder() + params.get("ruta_models") + '\\sk_rain_model_{}.pkl'.format(datetime.now().strftime('%Y-%m-%d')), 'wb') as f:
             pickle.dump(logreg, f)

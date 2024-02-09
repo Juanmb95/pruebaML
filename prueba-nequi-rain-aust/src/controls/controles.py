@@ -1,6 +1,7 @@
 import pandas as pd
 from datetime import datetime
 from src.data_get.make_dataset import TrerData
+from src.config.get_r import RutaT
 import logging
 
 class Controls():
@@ -8,10 +9,11 @@ class Controls():
         td = TrerData()
         if(tipo == "train"):
             self.df = td.data_proce()
-            logging.basicConfig(filename=params.get("ruta_logs") + "\\archivo_controls_{}".format(datetime.now().strftime('%Y-%m-%d')) + ".log", level=logging.INFO)
+            logging.basicConfig(filename = RutaT.get_folder() + params.get("ruta_logs") + "\\archivo_controls_{}".format(datetime.now().strftime('%Y-%m-%d')) + ".log", level=logging.INFO)
         else:
             self.df = td.data_proce_inf()
-            logging.basicConfig(filename=params.get("ruta_logs") + "\\archivo_controls_inf_{}".format(datetime.now().strftime('%Y-%m-%d')) + ".log", level=logging.INFO)
+            logging.basicConfig(filename = RutaT.get_folder() + params.get("ruta_logs") + "\\archivo_controls_inf_{}".format(datetime.now().strftime('%Y-%m-%d')) + ".log", level=logging.INFO)
+
         logging.info(self.__validate_duplicate())
         logging.info(self.__null_values())
         logging.info(self.__num_columns())

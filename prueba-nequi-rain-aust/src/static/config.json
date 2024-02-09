@@ -1,11 +1,11 @@
 {
 	"SetParams" : {
-		"ruta_inference" : "D:\\Prueba_ML\\prueba-nequi-rain-aust\\data\\raw\\inference",
-		"ruta_train" : "D:\\Prueba_ML\\prueba-nequi-rain-aust\\data\\raw\\train",
-        "ruta_procesa" : "D:\\Prueba_ML\\prueba-nequi-rain-aust\\data\\proccesed",
-        "ruta_reports" : "D:\\Prueba_ML\\prueba-nequi-rain-aust\\reports",
-        "ruta_logs" : "D:\\Prueba_ML\\prueba-nequi-rain-aust\\logs",
-        "ruta_models" : "D:\\Prueba_ML\\prueba-nequi-rain-aust\\models",
+		"ruta_inference" : "\\data\\raw\\inference",
+		"ruta_train" : "\\data\\raw\\train\\",
+        "ruta_procesa" : "\\data\\proccesed\\",
+        "ruta_reports" : "\\reports\\",
+        "ruta_logs" : "\\logs\\",
+        "ruta_models" : "\\models\\",
         "archivo" : "weatherAUS",
         "archivo_proces" : "data_model",
         "archivo_proces_inf" : "data_model_inf"

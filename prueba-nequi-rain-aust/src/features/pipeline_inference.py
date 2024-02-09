@@ -4,11 +4,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import FunctionTransformer
-import category_encoders as ce
 from sklearn.preprocessing import FunctionTransformer
 import pandas as pd
 from datetime import datetime
 from src.data_get.make_dataset import *
+from src.config.get_r import *
 
 class Transformations2:
     def ejecutar(params):
@@ -29,17 +29,22 @@ class Transformations2:
         preprocesing.fit(data)
         data_out = preprocesing.transform(data)
         print(data_out)
-        data_out.to_excel(params.get("ruta_procesa") + "\\" + "data_model_inf_{}.xlsx".format(datetime.now().strftime('%Y-%m-%d')))
+        half_rows = len(data_out) // 5
+        data_out = data_out.drop(data_out.index[:half_rows])
+        data_out.to_excel(RutaT.get_folder() + params.get("ruta_procesa") + "data_model_inf_{}.xlsx".format(datetime.now().strftime('%Y-%m-%d')))
 
     @staticmethod
     def binary_encoder(df):
         """
         Funcion que codifica la columna RainToday en una codificacion binaria
         """
-        encoder = ce.BinaryEncoder(cols=['RainToday'])
-        df_decode = encoder.fit_transform(df)
-        for col in encoder.get_feature_names_out():
-            df.loc[:, col] = df_decode.loc[:, col]
+        #encoder = ce.BinaryEncoder(cols=['RainToday'])
+        #df_decode = encoder.fit_transform(df)
+        #for col in encoder.get_feature_names_out():
+        #    df.loc[:, col] = df_decode.loc[:, col]
+        #df.drop(columns= 'RainToday', inplace=True)
+        df['RainToday_1'] = df['RainToday'].apply(lambda x: 1 if x == 'Yes' else 0)
+        df['RainToday_0'] = df['RainToday'].apply(lambda x: 0 if x == 'Yes' else 1)
         df.drop(columns= 'RainToday', inplace=True)
         return df
     @staticmethod
