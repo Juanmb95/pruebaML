@@ -34,3 +34,5 @@ class TrerData:
         return data
     def data_test_git(self):
         data = pd.read_csv(r"/home/runner/work/pruebaML/pruebaML/data/raw/weatherAUS_2024-02-09.csv".format(datetime.now().strftime('%Y-%m-%d')))
+        #data = pd.read_csv("data/raw/weatherAUS_2024-02-09.csv")
+        return data
