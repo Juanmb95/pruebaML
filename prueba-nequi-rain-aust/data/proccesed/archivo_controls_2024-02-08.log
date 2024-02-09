@@ -1,0 +1,266 @@
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:la nulidad es 0
+INFO:root:El numero de columnas del dataframe es 120
+INFO:root:El limite superior para la variable Temp3pm es 36.65 el inferior es 7.4499999999999975 se presentan outliers, valor mayor 41.0, valor menor 41.0 
+El limite superior para la variable Temp9am es 32.7 el inferior es 3.099999999999996 se presentan outliers, valor mayor 35.5, valor menor 35.5 
+El limite superior para la variable Pressure3pm es 1028.75 el inferior es 1002.75 se presentan outliers, valor mayor 1034.4, valor menor 1034.4 
+El limite superior para la variable Pressure9am es 1031.5 el inferior es 1005.0999999999999 se presentan outliers, valor mayor 1036.6, valor menor 1036.6 
+El limite superior para la variable Humidity9am es 119.0 el inferior es 23.0 se presentan outliers, valor mayor 100, valor menor 100 
+El limite superior para la variable WindGustSpeed es 65.0 el inferior es 9.0 se presentan outliers, valor mayor 72, valor menor 72 
+El limite superior para la variable MaxTemp es 39.099999999999994 el inferior es 7.900000000000006 se presentan outliers, valor mayor 43.6, valor menor 43.6 
+El limite superior para la variable MinTemp es 30.55 el inferior es -3.4499999999999993 se presentan outliers, valor mayor 29.7, valor menor 29.7 
+
+INFO:root:columna RainTomorrow: 2 
+columna RainToday_1: 2 
+columna RainToday_0: 2 
+columna dummie_WindDir3pm_WSW: 2 
+columna dummie_WindDir3pm_WNW: 2 
+columna dummie_WindDir3pm_W: 2 
+columna dummie_WindDir3pm_SW: 2 
+columna dummie_WindDir3pm_SSW: 2 
+columna dummie_WindDir3pm_SSE: 2 
+columna dummie_WindDir3pm_SE: 2 
+columna dummie_WindDir3pm_S: 2 
+columna dummie_WindDir3pm_NW: 2 
+columna dummie_WindDir3pm_NNW: 2 
+columna dummie_WindDir3pm_NNE: 2 
+columna dummie_WindDir3pm_NE: 2 
+columna dummie_WindDir3pm_N: 2 
+columna dummie_WindDir3pm_ESE: 2 
+columna dummie_WindDir3pm_ENE: 2 
+columna dummie_WindDir3pm_E: 2 
+columna dummie_WindDir9am_WSW: 2 
+columna dummie_WindDir9am_WNW: 2 
+columna dummie_WindDir9am_W: 2 
+columna dummie_WindDir9am_SW: 2 
+columna dummie_WindDir9am_SSW: 2 
+columna dummie_WindDir9am_SSE: 2 
+columna dummie_WindDir9am_SE: 2 
+columna dummie_WindDir9am_S: 2 
+columna dummie_WindDir9am_NW: 2 
+columna dummie_WindDir9am_NNW: 2 
+columna dummie_WindDir9am_NNE: 2 
+columna dummie_WindDir9am_NE: 2 
+columna dummie_WindDir9am_N: 2 
+columna dummie_WindDir9am_ESE: 2 
+columna dummie_WindDir9am_ENE: 2 
+columna dummie_WindDir9am_E: 2 
+columna dummie_WindGustDir_WSW: 2 
+columna dummie_WindGustDir_WNW: 2 
+columna dummie_WindGustDir_W: 2 
+columna dummie_WindGustDir_SW: 2 
+columna dummie_WindGustDir_SSW: 2 
+columna dummie_WindGustDir_SSE: 2 
+columna dummie_WindGustDir_SE: 2 
+columna dummie_WindGustDir_S: 2 
+columna dummie_WindGustDir_NW: 2 
+columna dummie_WindGustDir_NNW: 2 
+columna dummie_WindGustDir_NNE: 2 
+columna dummie_WindGustDir_NE: 2 
+columna dummie_WindGustDir_N: 2 
+columna dummie_WindGustDir_ESE: 2 
+columna dummie_WindGustDir_ENE: 2 
+columna dummie_WindGustDir_E: 2 
+columna dummie_Location_Woomera: 1 
+columna dummie_Location_Wollongong: 1 
+columna dummie_Location_Witchcliffe: 1 
+columna dummie_Location_Williamtown: 1 
+columna dummie_Location_Watsonia: 1 
+columna dummie_Location_Walpole: 1 
+columna dummie_Location_WaggaWagga: 2 
+columna dummie_Location_Uluru: 1 
+columna dummie_Location_Tuggeranong: 1 
+columna dummie_Location_Townsville: 1 
+columna dummie_Location_SydneyAirport: 2 
+columna dummie_Location_Sydney: 2 
+columna dummie_Location_SalmonGums: 1 
+columna dummie_Location_Sale: 1 
+columna dummie_Location_Richmond: 2 
+columna dummie_Location_Portland: 1 
+columna dummie_Location_PerthAirport: 1 
+columna dummie_Location_Perth: 1 
+columna dummie_Location_Penrith: 2 
+columna dummie_Location_PearceRAAF: 1 
+columna dummie_Location_Nuriootpa: 1 
+columna dummie_Location_NorfolkIsland: 2 
+columna dummie_Location_NorahHead: 2 
+columna dummie_Location_Nhil: 1 
+columna dummie_Location_Newcastle: 2 
+columna dummie_Location_MountGinini: 1 
+columna dummie_Location_MountGambier: 1 
+columna dummie_Location_Moree: 2 
+columna dummie_Location_Mildura: 1 
+columna dummie_Location_MelbourneAirport: 1 
+columna dummie_Location_Melbourne: 1 
+columna dummie_Location_Launceston: 1 
+columna dummie_Location_Katherine: 1 
+columna dummie_Location_Hobart: 1 
+columna dummie_Location_GoldCoast: 1 
+columna dummie_Location_Darwin: 1 
+columna dummie_Location_Dartmoor: 1 
+columna dummie_Location_CoffsHarbour: 2 
+columna dummie_Location_Cobar: 2 
+columna dummie_Location_Canberra: 1 
+columna dummie_Location_Cairns: 1 
+columna dummie_Location_Brisbane: 1 
+columna dummie_Location_Bendigo: 1 
+columna dummie_Location_Ballarat: 1 
+columna dummie_Location_BadgerysCreek: 2 
+columna dummie_Location_AliceSprings: 1 
+columna dummie_Location_Albury: 2 
+columna dummie_Location_Albany: 1 
+columna dummie_Location_Adelaide: 1 
+columna day: 31 
+columna year: 10 
+columna month: 12 
+columna Temp3pm: 341 
+columna Temp9am: 333 
+columna Cloud3pm: 9 
+columna Cloud9am: 10 
+columna Pressure3pm: 384 
+columna Pressure9am: 377 
+columna Humidity3pm: 100 
+columna Humidity9am: 83 
+columna WindSpeed3pm: 22 
+columna WindSpeed9am: 21 
+columna WindGustSpeed: 36 
+columna Sunshine: 140 
+columna Evaporation: 132 
+columna Rainfall: 21 
+columna MaxTemp: 357 
+columna MinTemp: 325 
+columna Unnamed: 0: 36156 
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:la nulidad es 0
+INFO:root:El numero de columnas del dataframe es 120
+INFO:root:El limite superior para la variable Temp3pm es 36.65 el inferior es 7.4499999999999975 se presentan outliers, valor mayor 41.0, valor menor 41.0 
+El limite superior para la variable Temp9am es 32.7 el inferior es 3.099999999999996 se presentan outliers, valor mayor 35.5, valor menor 35.5 
+El limite superior para la variable Pressure3pm es 1028.75 el inferior es 1002.75 se presentan outliers, valor mayor 1034.4, valor menor 1034.4 
+El limite superior para la variable Pressure9am es 1031.5 el inferior es 1005.0999999999999 se presentan outliers, valor mayor 1036.6, valor menor 1036.6 
+El limite superior para la variable Humidity9am es 119.0 el inferior es 23.0 se presentan outliers, valor mayor 100, valor menor 100 
+El limite superior para la variable WindGustSpeed es 65.0 el inferior es 9.0 se presentan outliers, valor mayor 72, valor menor 72 
+El limite superior para la variable MaxTemp es 39.099999999999994 el inferior es 7.900000000000006 se presentan outliers, valor mayor 43.6, valor menor 43.6 
+El limite superior para la variable MinTemp es 30.55 el inferior es -3.4499999999999993 se presentan outliers, valor mayor 29.7, valor menor 29.7 
+
+INFO:root:columna RainTomorrow: 2 
+columna RainToday_1: 2 
+columna RainToday_0: 2 
+columna dummie_WindDir3pm_WSW: 2 
+columna dummie_WindDir3pm_WNW: 2 
+columna dummie_WindDir3pm_W: 2 
+columna dummie_WindDir3pm_SW: 2 
+columna dummie_WindDir3pm_SSW: 2 
+columna dummie_WindDir3pm_SSE: 2 
+columna dummie_WindDir3pm_SE: 2 
+columna dummie_WindDir3pm_S: 2 
+columna dummie_WindDir3pm_NW: 2 
+columna dummie_WindDir3pm_NNW: 2 
+columna dummie_WindDir3pm_NNE: 2 
+columna dummie_WindDir3pm_NE: 2 
+columna dummie_WindDir3pm_N: 2 
+columna dummie_WindDir3pm_ESE: 2 
+columna dummie_WindDir3pm_ENE: 2 
+columna dummie_WindDir3pm_E: 2 
+columna dummie_WindDir9am_WSW: 2 
+columna dummie_WindDir9am_WNW: 2 
+columna dummie_WindDir9am_W: 2 
+columna dummie_WindDir9am_SW: 2 
+columna dummie_WindDir9am_SSW: 2 
+columna dummie_WindDir9am_SSE: 2 
+columna dummie_WindDir9am_SE: 2 
+columna dummie_WindDir9am_S: 2 
+columna dummie_WindDir9am_NW: 2 
+columna dummie_WindDir9am_NNW: 2 
+columna dummie_WindDir9am_NNE: 2 
+columna dummie_WindDir9am_NE: 2 
+columna dummie_WindDir9am_N: 2 
+columna dummie_WindDir9am_ESE: 2 
+columna dummie_WindDir9am_ENE: 2 
+columna dummie_WindDir9am_E: 2 
+columna dummie_WindGustDir_WSW: 2 
+columna dummie_WindGustDir_WNW: 2 
+columna dummie_WindGustDir_W: 2 
+columna dummie_WindGustDir_SW: 2 
+columna dummie_WindGustDir_SSW: 2 
+columna dummie_WindGustDir_SSE: 2 
+columna dummie_WindGustDir_SE: 2 
+columna dummie_WindGustDir_S: 2 
+columna dummie_WindGustDir_NW: 2 
+columna dummie_WindGustDir_NNW: 2 
+columna dummie_WindGustDir_NNE: 2 
+columna dummie_WindGustDir_NE: 2 
+columna dummie_WindGustDir_N: 2 
+columna dummie_WindGustDir_ESE: 2 
+columna dummie_WindGustDir_ENE: 2 
+columna dummie_WindGustDir_E: 2 
+columna dummie_Location_Woomera: 1 
+columna dummie_Location_Wollongong: 1 
+columna dummie_Location_Witchcliffe: 1 
+columna dummie_Location_Williamtown: 1 
+columna dummie_Location_Watsonia: 1 
+columna dummie_Location_Walpole: 1 
+columna dummie_Location_WaggaWagga: 2 
+columna dummie_Location_Uluru: 1 
+columna dummie_Location_Tuggeranong: 1 
+columna dummie_Location_Townsville: 1 
+columna dummie_Location_SydneyAirport: 2 
+columna dummie_Location_Sydney: 2 
+columna dummie_Location_SalmonGums: 1 
+columna dummie_Location_Sale: 1 
+columna dummie_Location_Richmond: 2 
+columna dummie_Location_Portland: 1 
+columna dummie_Location_PerthAirport: 1 
+columna dummie_Location_Perth: 1 
+columna dummie_Location_Penrith: 2 
+columna dummie_Location_PearceRAAF: 1 
+columna dummie_Location_Nuriootpa: 1 
+columna dummie_Location_NorfolkIsland: 2 
+columna dummie_Location_NorahHead: 2 
+columna dummie_Location_Nhil: 1 
+columna dummie_Location_Newcastle: 2 
+columna dummie_Location_MountGinini: 1 
+columna dummie_Location_MountGambier: 1 
+columna dummie_Location_Moree: 2 
+columna dummie_Location_Mildura: 1 
+columna dummie_Location_MelbourneAirport: 1 
+columna dummie_Location_Melbourne: 1 
+columna dummie_Location_Launceston: 1 
+columna dummie_Location_Katherine: 1 
+columna dummie_Location_Hobart: 1 
+columna dummie_Location_GoldCoast: 1 
+columna dummie_Location_Darwin: 1 
+columna dummie_Location_Dartmoor: 1 
+columna dummie_Location_CoffsHarbour: 2 
+columna dummie_Location_Cobar: 2 
+columna dummie_Location_Canberra: 1 
+columna dummie_Location_Cairns: 1 
+columna dummie_Location_Brisbane: 1 
+columna dummie_Location_Bendigo: 1 
+columna dummie_Location_Ballarat: 1 
+columna dummie_Location_BadgerysCreek: 2 
+columna dummie_Location_AliceSprings: 1 
+columna dummie_Location_Albury: 2 
+columna dummie_Location_Albany: 1 
+columna dummie_Location_Adelaide: 1 
+columna day: 31 
+columna year: 10 
+columna month: 12 
+columna Temp3pm: 341 
+columna Temp9am: 333 
+columna Cloud3pm: 9 
+columna Cloud9am: 10 
+columna Pressure3pm: 384 
+columna Pressure9am: 377 
+columna Humidity3pm: 100 
+columna Humidity9am: 83 
+columna WindSpeed3pm: 22 
+columna WindSpeed9am: 21 
+columna WindGustSpeed: 36 
+columna Sunshine: 140 
+columna Evaporation: 132 
+columna Rainfall: 21 
+columna MaxTemp: 357 
+columna MinTemp: 325 
+columna Unnamed: 0: 36156 
+

@@ -1,0 +1,22 @@
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun.TestFunctions.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun.py", line 31, in test_imputer_vars
+    self.assertEqual(a.isnull().sum().sum(), 0)
+AssertionError: 31648 != 0
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun.TestFunctions.test_one_hot_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun.py", line 34, in test_one_hot_encoder
+    a = transformations_1.one_hot_encoder(self.df)
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\features\pipeline_preprocesado.py", line 90, in one_hot_encoder
+    df = pd.concat([df[num],df[binary],dummies], axis=1)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\reshape\concat.py", line 307, in concat
+    return op.get_result()
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\reshape\concat.py", line 533, in get_result
+    mgrs_indexers, self.new_axes, concat_axis=self.bm_axis, copy=self.copy
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\internals\concat.py", line 205, in concatenate_managers
+    values = values.copy()
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 3.83 GiB for an array with shape (3536, 145460) and data type float64
+

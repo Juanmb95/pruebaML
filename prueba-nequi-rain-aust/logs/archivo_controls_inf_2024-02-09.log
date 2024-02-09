@@ -1,0 +1,942 @@
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 15, in test_binary_encoder
+    a = transformations_2.binary_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 19, in test_imputer_vars
+    a = transformations_2.imputer_vars(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_one_hot_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 22, in test_one_hot_encoder
+    a = transformations_2.one_hot_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 15, in test_binary_encoder
+    a = transformations_2.binary_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 19, in test_imputer_vars
+    a = transformations_2.imputer_vars(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_one_hot_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 22, in test_one_hot_encoder
+    a = transformations_2.one_hot_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 15, in test_binary_encoder
+    a = transformations_2.binary_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 19, in test_imputer_vars
+    a = transformations_2.imputer_vars(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_one_hot_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 22, in test_one_hot_encoder
+    a = transformations_2.one_hot_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 15, in test_binary_encoder
+    a = transformations_2.binary_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 19, in test_imputer_vars
+    a = transformations_2.imputer_vars(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_one_hot_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 22, in test_one_hot_encoder
+    a = transformations_2.one_hot_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 15, in test_binary_encoder
+    a = transformations_2.binary_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 19, in test_imputer_vars
+    a = transformations_2.imputer_vars(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_one_hot_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 22, in test_one_hot_encoder
+    a = transformations_2.one_hot_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 15, in test_binary_encoder
+    a = transformations_2.binary_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 19, in test_imputer_vars
+    a = transformations_2.imputer_vars(self.df)
+NameError: name 'transformations_2' is not defined
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_one_hot_encoder
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 22, in test_one_hot_encoder
+    a = transformations_2.one_hot_encoder(self.df)
+NameError: name 'transformations_2' is not defined
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 20, in test_imputer_vars
+    self.assertEqual(a.isnull().sum().sum(), 0)
+AssertionError: 3 != 0
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RainToday_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 17, in test_binary_encoder
+    self.assertIn(a['RainToday_1'].unique()[0], [0,1])
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RainToday_1'
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 20, in test_imputer_vars
+    self.assertEqual(a.isnull().sum().sum(), 0)
+AssertionError: 3 != 0
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RainToday_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 17, in test_binary_encoder
+    self.assertIn(a['RainToday_1'].unique()[0], [0,1])
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RainToday_1'
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 20, in test_imputer_vars
+    self.assertEqual(a.isnull().sum().sum(), 0)
+AssertionError: 3 != 0
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RainToday_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 17, in test_binary_encoder
+    self.assertIn(a['RainToday_1'].unique()[0], [0,1])
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RainToday_1'
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 100.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 25
+INFO:root:No hay outliers
+INFO:root:columna RainToday_0: 1 
+columna dummie_WindDir3pm_WNW: 1 
+columna dummie_WindDir9am_W: 1 
+columna dummie_WindGustDir_W: 1 
+columna dummie_Location_Albury: 1 
+columna day: 1 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 1 
+columna Temp9am: 1 
+columna Cloud3pm: 0 
+columna Cloud9am: 1 
+columna Pressure3pm: 1 
+columna Pressure9am: 1 
+columna Humidity3pm: 1 
+columna Humidity9am: 1 
+columna WindSpeed3pm: 1 
+columna WindSpeed9am: 1 
+columna WindGustSpeed: 1 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 1 
+columna MaxTemp: 1 
+columna MinTemp: 1 
+columna Unnamed: 0: 1 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 20, in test_imputer_vars
+    self.assertEqual(a.isnull().sum().sum(), 0)
+AssertionError: 6 != 0
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RainToday_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 17, in test_binary_encoder
+    self.assertIn(a['RainToday_1'].unique()[0], [0,1])
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RainToday_1'
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:Porcentaje de valores nulos en la columna RainToday_0 es 0.0 
+Porcentaje de valores nulos en la columna dummie_RainTomorrow_No es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WSW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir3pm_E es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_SE es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindDir9am_NNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_WSW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_WNW es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_W es 0.0 
+Porcentaje de valores nulos en la columna dummie_WindGustDir_NE es 0.0 
+Porcentaje de valores nulos en la columna dummie_Location_Albury es 0.0 
+Porcentaje de valores nulos en la columna day es 0.0 
+Porcentaje de valores nulos en la columna year es 0.0 
+Porcentaje de valores nulos en la columna month es 0.0 
+Porcentaje de valores nulos en la columna Temp3pm es 0.0 
+Porcentaje de valores nulos en la columna Temp9am es 0.0 
+Porcentaje de valores nulos en la columna Cloud3pm es 0.0 
+Porcentaje de valores nulos en la columna Cloud9am es 0.0 
+Porcentaje de valores nulos en la columna Pressure3pm es 0.0 
+Porcentaje de valores nulos en la columna Pressure9am es 0.0 
+Porcentaje de valores nulos en la columna Humidity3pm es 0.0 
+Porcentaje de valores nulos en la columna Humidity9am es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed3pm es 0.0 
+Porcentaje de valores nulos en la columna WindSpeed9am es 0.0 
+Porcentaje de valores nulos en la columna WindGustSpeed es 0.0 
+Porcentaje de valores nulos en la columna Sunshine es 100.0 
+Porcentaje de valores nulos en la columna Evaporation es 100.0 
+Porcentaje de valores nulos en la columna Rainfall es 0.0 
+Porcentaje de valores nulos en la columna MaxTemp es 0.0 
+Porcentaje de valores nulos en la columna MinTemp es 0.0 
+Porcentaje de valores nulos en la columna Unnamed: 0 es 0.0 
+
+control fallido
+INFO:root:El numero de columnas del dataframe es 33
+INFO:root:El limite superior para la variable Humidity9am es 65.0 el inferior es 29.0 se presentan outliers, valor mayor 71, valor menor 71 
+El limite superior para la variable WindSpeed3pm es 33.125 el inferior es 10.125 se presentan outliers, valor mayor 26, valor menor 26 
+El limite superior para la variable WindGustSpeed es 52.75 el inferior es 30.75 se presentan outliers, valor mayor 46, valor menor 46 
+
+INFO:root:columna RainToday_0: 1 
+columna dummie_RainTomorrow_No: 1 
+columna dummie_WindDir3pm_WSW: 2 
+columna dummie_WindDir3pm_WNW: 2 
+columna dummie_WindDir3pm_E: 2 
+columna dummie_WindDir9am_W: 2 
+columna dummie_WindDir9am_SE: 2 
+columna dummie_WindDir9am_NNW: 2 
+columna dummie_WindGustDir_WSW: 2 
+columna dummie_WindGustDir_WNW: 2 
+columna dummie_WindGustDir_W: 2 
+columna dummie_WindGustDir_NE: 2 
+columna dummie_Location_Albury: 1 
+columna day: 4 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 4 
+columna Temp9am: 4 
+columna Cloud3pm: 1 
+columna Cloud9am: 1 
+columna Pressure3pm: 4 
+columna Pressure9am: 4 
+columna Humidity3pm: 4 
+columna Humidity9am: 4 
+columna WindSpeed3pm: 4 
+columna WindSpeed9am: 4 
+columna WindGustSpeed: 3 
+columna Sunshine: 0 
+columna Evaporation: 0 
+columna Rainfall: 2 
+columna MaxTemp: 4 
+columna MinTemp: 4 
+columna Unnamed: 0: 4 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_imputer_vars
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 20, in test_imputer_vars
+    self.assertEqual(a.isnull().sum().sum(), 0)
+AssertionError: 8 != 0
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RainToday_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 17, in test_binary_encoder
+    self.assertIn(a['RainToday_1'].unique()[0], [0,1])
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RainToday_1'
+
+INFO:root:la cantidad de registros duplicados es 0
+INFO:root:la nulidad es 0
+INFO:root:El numero de columnas del dataframe es 33
+INFO:root:El limite superior para la variable Humidity9am es 65.0 el inferior es 29.0 se presentan outliers, valor mayor 71, valor menor 71 
+El limite superior para la variable WindSpeed3pm es 33.125 el inferior es 10.125 se presentan outliers, valor mayor 26, valor menor 26 
+El limite superior para la variable WindGustSpeed es 52.75 el inferior es 30.75 se presentan outliers, valor mayor 46, valor menor 46 
+El limite superior para la variable Sunshine es 2.375 el inferior es 1.375 se presentan outliers, valor mayor 2, valor menor 2 
+El limite superior para la variable Evaporation es 1.625 el inferior es 0.625 se presentan outliers, valor mayor 2, valor menor 2 
+
+INFO:root:columna RainToday_0: 1 
+columna dummie_RainTomorrow_No: 1 
+columna dummie_WindDir3pm_WSW: 2 
+columna dummie_WindDir3pm_WNW: 2 
+columna dummie_WindDir3pm_E: 2 
+columna dummie_WindDir9am_W: 2 
+columna dummie_WindDir9am_SE: 2 
+columna dummie_WindDir9am_NNW: 2 
+columna dummie_WindGustDir_WSW: 2 
+columna dummie_WindGustDir_WNW: 2 
+columna dummie_WindGustDir_W: 2 
+columna dummie_WindGustDir_1: 2 
+columna dummie_Location_Albury: 1 
+columna day: 4 
+columna year: 1 
+columna month: 1 
+columna Temp3pm: 4 
+columna Temp9am: 4 
+columna Cloud3pm: 1 
+columna Cloud9am: 1 
+columna Pressure3pm: 4 
+columna Pressure9am: 4 
+columna Humidity3pm: 4 
+columna Humidity9am: 4 
+columna WindSpeed3pm: 4 
+columna WindSpeed9am: 4 
+columna WindGustSpeed: 3 
+columna Sunshine: 2 
+columna Evaporation: 2 
+columna Rainfall: 2 
+columna MaxTemp: 4 
+columna MinTemp: 4 
+columna Unnamed: 0: 4 
+
+ERROR:root:Error en la prueba: src.test.test_rain_aus_fun_inf.TestFunctionsInf.test_binary_encoder
+Traceback (most recent call last):
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RainToday_1'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Prueba_ML\prueba-nequi-rain-aust\src\test\test_rain_aus_fun_inf.py", line 17, in test_binary_encoder
+    self.assertIn(a['RainToday_1'].unique()[0], [0,1])
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "D:\Repos_riesgos\env_jupyter\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RainToday_1'
+

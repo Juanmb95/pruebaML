@@ -1,0 +1,51 @@
+├── LICENSE	       <- Archivo que contiene la lincencia del proyecto
+├── README.md          <- Documentacion general del proyecto.
+├── data
+│   ├── external       <- Datos de fuentes externas.   
+│   ├── processed      <- Datos procesados, listos para modelar.
+│   └── raw            <- Datos originales inmutables.
+│
+├── logs	       <- archivos para almacenar logs
+│
+│
+├── models             <- Modelos entrenados y serializados.
+│
+├── notebooks          <- Jupyter notebooks. Para analisis exploratorio y modelado. 
+│
+├── references         <- Diccionarios, manuales y otros materiales de exploracion.
+│
+├── reports            <- Material para analisis en diferentes formatos.
+│   └── figures        <- Graficas y figuras usadas para analisis.
+│
+├── requirements.txt   <- lista de dependencias del proyecto para facilitar la reproducion del entorno de trabajo.
+│
+├── setup.py           <- Instalable del proyecto. 'pip install -e'
+│
+├── excecute.py	       <- archivo para ejecucion
+│
+├── src                <- Codigos duentes usados en el proyecto.
+│   ├── __init__.py    <- Archivo que hace que 'src' sea un modulo de python
+│   │
+│   ├── data           <- Script para descargar o generar datos
+│   │   └── make_dataset.py
+│   │
+│   ├── features       <- Scritps de transformacion de datos para modelado.
+│   │   └── build_features.py
+│   │
+│   ├── models         <- Scripts para entrenar modelos y realizar predicciones con modelos entrenados.
+│   │   │                 
+│   │   ├── predict_model.py
+│   │   └── train_model.py
+│   │
+│   ├── visualization  <- Scripts para crear visualizaciones exploratorias y orientadas a resultados.
+│   │   └── visualize.py
+│   │
+│   ├── test <- Directorio para scripts de pruebas unitarias
+│   │   └── text_functions.txt
+│   │
+│   ├── controls <- directorio para controles
+│   │	└── controls_functions.txt	
+│   │
+│   ├──	static
+│	└──config.json <- Archivo de configuración utilizado por el proyecto.
+│	
