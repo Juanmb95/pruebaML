@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/__init__.py
+src/_version.py
+src/rain_aus.egg-info/PKG-INFO
+src/rain_aus.egg-info/SOURCES.txt
+src/rain_aus.egg-info/dependency_links.txt
+src/rain_aus.egg-info/top_level.txt

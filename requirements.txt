@@ -1,0 +1,12 @@
+et-xmlfile==1.1.0
+joblib==1.3.2
+numpy==1.21.6
+openpyxl==3.1.2
+pandas==1.3.5
+python-dateutil==2.8.2
+pytz==2024.1
+-e git+https://github.com/Juanmb95/pruebaML.git@625098224dc19260e8164ce9379acd4d1b75e0a2#egg=rain_aus
+scikit-learn==1.0.2
+scipy==1.7.3
+six==1.16.0
+threadpoolctl==3.1.0
