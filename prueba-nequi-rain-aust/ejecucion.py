@@ -28,7 +28,7 @@ def main():
         archivos_csv = [archivo for archivo in archivos if archivo.endswith('.csv')]
         if params.get("archivo") + "_{}".format(datetime.now().strftime('%Y-%m-%d')) + ".csv" in archivos_csv:
             pass
-            #steps = [Transformations2.ejecutar(params), Controls(params, "test"), RunTest.ejecutar(params, "test"), InferenceStep().ejecutar(params)]
+            steps = [Transformations2.ejecutar(params), Controls(params, "test"), RunTest.ejecutar(params, "test"), InferenceStep().ejecutar(params)]
 
     #train
     if os.path.exists(process[1]):
