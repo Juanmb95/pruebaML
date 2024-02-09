@@ -37,5 +37,3 @@ jobs:
     - name: Test with test_rain_aus_fun
       run: |
         python test_rain_aus_fun.py
-      run: |
-        echo "finalizado"
