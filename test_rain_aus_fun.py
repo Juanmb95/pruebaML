@@ -9,7 +9,7 @@ from src.data_get.make_dataset import *
 class TestFunctions(unittest.TestCase):
     def setUp(self):
         td = TrerData()
-        self.df = td.data(inference = False, train = True)
+        self.df = td.data_test_git(inference = False, train = True)
         return super().setUp()
     def test_validar_delete_regis_vo(self):
         a = transformations_1.delete_regis_vo(self.df)

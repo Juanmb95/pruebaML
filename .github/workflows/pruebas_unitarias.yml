@@ -30,7 +30,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Buscar archivos
       run: |
-        ls
-        cd data
-        cd proccesed
-        pwd
+        python test_rain_aus_fun.py

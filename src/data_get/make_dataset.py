@@ -32,3 +32,5 @@ class TrerData:
     def data_proce_inf(self):
         data = pd.read_excel(self.path + self.params.get("ruta_procesa") + "\\" + self.params.get("archivo_proces_inf") + "_{}.xlsx".format(datetime.now().strftime('%Y-%m-%d')))
         return data
+    def data_test_git(self):
+        data = pd.read_csv(r"/home/runner/work/pruebaML/pruebaML/data/raw/weatherAUS_{}.csv".format(datetime.now().strftime('%Y-%m-%d')))
