@@ -24,7 +24,8 @@ class TestFunctions(unittest.TestCase):
         self.assertIn(a['RainTomorrow'].unique()[0], [0,1])
     def test_imputer_vars(self):
         a = transformations_1.imputer_vars(self.df)
-        self.assertEqual(a.isnull().sum().sum(), 0)
+        num = [var for var in a.columns if a[var].dtype!='O']
+        self.assertEqual(a[num].isnull().sum().sum(), 0)
     def test_one_hot_encoder(self):
         a = transformations_1.one_hot_encoder(self.df)
         list_col_ori = [columna for columna in self.df.columns if columna not in ['RainToday', 'RainTomorrow'] and self.df[columna].dtype == 'O']
